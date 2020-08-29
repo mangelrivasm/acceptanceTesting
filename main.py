@@ -72,3 +72,9 @@ if __name__ == '__main__':
 	for x in result:
 		print(x)
 	print("-"*20)
+
+	result, msj = get_game_developer(game_list,'No Developer')
+	print(msj)
+	for x in result:
+		print(x)
+	print("-"*20)
